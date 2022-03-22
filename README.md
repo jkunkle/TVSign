@@ -8,7 +8,7 @@ The 2 bytes of the command should be sent in a
 single transmission
 For some commands, additional bytes may be sent.
 
-See send_cmd.py for the python implementation of the bluetooth communication
+See send_cmd.py for the python implementation of the bluetooth communication and see the `ISR(USART_RX_vect)` function in tvpatterns.c for the implementation
 
 ### Commands
 
